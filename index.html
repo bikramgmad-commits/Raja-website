@@ -107,6 +107,15 @@ h1 {
   margin-bottom: 20px;
 }
 
+.news-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 .article p {
   font-size: 17px;
   margin-bottom: 18px;
@@ -262,12 +271,15 @@ footer a {
     ২৬ অক্টোবর ২০২৬ · রাজা · সংবাদ বিভাগ
   </div>
 
-  <div class="hero">
-    <div>
-      <div style="font-size:48px">📰</div>
-      <p>এখানে খবরের ছবি যোগ করুন</p>
-    </div>
-  </div>
+  
+<div class="hero">
+  <img
+    src="images/news.jpg"
+    alt="সংবাদ প্রতিবেদনের ছবি"
+    class="news-photo"
+  >
+</div>
+
 
   <div class="share">
     <button onclick="shareNews()">খবর শেয়ার করুন ↗</button>
